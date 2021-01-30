@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div>
+      <div class="history" aria-placeholder="null"></div>
+
+      <input
+        type="text"
+        class="form-control result"
+        onkeypress="return isNumberKey(event)"
+      />
+
+      <button type="button" class="btn btn-outline-dark last">(</button>
+      <button type="button" class="btn btn-outline-dark last">)</button>
+      <button type="button" class="btn btn-outline-dark last">DEL</button>
+      <button type="button" class="btn btn-outline-dark last">/</button>
+      <br />
+      <button type="button" class="btn btn-outline-dark">1</button>
+      <button type="button" class="btn btn-outline-dark">2</button>
+      <button type="button" class="btn btn-outline-dark">3</button>
+      <button type="button" class="btn btn-outline-dark last">x</button>
+      <br />
+      <button type="button" class="btn btn-outline-dark">4</button>
+      <button type="button" class="btn btn-outline-dark">5</button>
+      <button type="button" class="btn btn-outline-dark">6</button>
+      <button type="button" class="btn btn-outline-dark last">+</button>
+      <br />
+      <button type="button" class="btn btn-outline-dark">7</button>
+      <button type="button" class="btn btn-outline-dark">8</button>
+      <button type="button" class="btn btn-outline-dark">9</button>
+      <button type="button" class="btn btn-outline-dark last">-</button>
+      <br />
+      <button type="button" class="btn btn-outline-dark last">.</button>
+      <button type="button" class="btn btn-outline-dark">0</button>
+      <button type="button" class="btn btn-outline-dark last">C</button>
+      <button type="button" class="btn btn-outline-dark equal">=</button>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="index.js" charset="utf-8"></script>
+  </body>
+</html>

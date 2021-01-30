@@ -1,0 +1,46 @@
+
+body{
+    background-color: #e8eae6;
+}
+
+div{
+    text-align: center;
+    margin-top: 80px;    
+}
+
+.history{
+    font-size: 1.5rem;
+    min-height: 36px;
+}
+
+.result{
+    width: 30%;
+    margin: auto;
+    font-size: 2.2rem;
+    margin-top: 20px;;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+button{
+    width: 100px;
+    height: 70px;
+    margin: 1px 1px;  
+}
+
+.btn{
+    border: 0px;
+    background-color:#f5f4f4;
+    font-size: 25px; 
+}
+
+.last{
+    background-color: #bbbbbb;
+    color:white;
+    font-size: 30px;
+}
+
+.equal{
+    background-color:#ff884b;
+    font-size: 30px;
+}
